@@ -19,8 +19,8 @@ import java.net.URL;
 public class Application {
 
     public static void main(String[] args) throws Exception {
-//        URL url = new URL("http://www.youtube.com/watch?v=u8qFAGLBJfE");
-        URL url = new URL("http://docs.oracle.com/javase/tutorial/networking/urls/readingURL.html");
+        URL url = new URL("https://www.youtube.com/watch?v=u8qFAGLBJfE");
+//        URL url = new URL("http://docs.oracle.com/javase/tutorial/networking/urls/readingURL.html");
         BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
         String inputLine;
         while ((inputLine = reader.readLine()) != null)
